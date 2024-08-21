@@ -4,6 +4,7 @@ return {
   opts = ...,
   config = function()
     vim.o.background = "dark"
+    -- vim.o.termguicolors = true
     vim.cmd([[colorscheme gruvbox]])
   end,
 }
